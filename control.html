@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="es">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="Control de avance de los ejercicios de Matemática y Ciencias."><title>Control de avance | Práctica</title><link rel="stylesheet" href="styles.css"></head>
+<body>
+  <header class="topbar"><a class="brand" href="index.html"><span class="brand-mark">P</span><span>Práctica<small>Matemática y Ciencias</small></span></a><nav><a class="nav-link" href="index.html">Ejercicios</a><a class="nav-link active" href="control.html">Control de avance</a></nav></header>
+  <main class="container">
+    <section class="hero control-hero"><div><p class="eyebrow">Seguimiento personal</p><h1>Tu avance</h1><p>Consultá las respuestas correctas e incorrectas, las preguntas pendientes y las respuestas escritas guardadas sin calificar.</p></div><button class="button button-quiet" id="reset-progress">Borrar avance</button></section>
+    <section class="summary-grid" id="summary"></section>
+    <section class="control-module"><div class="section-heading"><div><p class="eyebrow">Módulo 1</p><h2>Matemática</h2></div><span id="math-count" class="muted"></span></div><div id="math-status" class="status-list"></div></section>
+    <section class="control-module"><div class="section-heading"><div><p class="eyebrow">Módulo 2</p><h2>Ciencias</h2></div><span id="science-count" class="muted"></span></div><div id="science-status" class="status-list"></div></section>
+    <p class="page-footer"><a href="index.html">← Volver a los ejercicios</a></p>
+  </main><script src="questions.js"></script><script src="control.js"></script>
+</body></html>
