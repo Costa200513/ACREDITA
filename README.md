@@ -1,6 +1,6 @@
 # Práctica Acredita: Matemática y Ciencias
 
-Sitio estático sencillo, listo para publicar en GitHub Pages. No requiere instalar dependencias ni usar servidor.
+Sitio estático con 40 preguntas (20 por módulo), listo para publicar en GitHub Pages. Incluye tres ejercicios de escritura libre en Ciencias. No requiere instalar dependencias ni usar servidor.
 
 ## Publicar en GitHub Pages
 
@@ -14,11 +14,14 @@ Sitio estático sencillo, listo para publicar en GitHub Pages. No requiere insta
 
 - `index.html`: selector principal de módulos.
 - `matematica.html` y `ciencias.html`: presentan un ejercicio por pantalla, con opciones para responder o saltar.
+- `escritura.html`: permite elegir entre los dos ejemplos de escritura.
+- `escritura-ia.html` y `escritura-compras.html`: muestran por separado la consigna original, el texto modelo y las explicaciones desplegables.
+- `escritura.js`: controla los diálogos explicativos de los modelos de escritura.
 - `control.html`: resumen de correctas, incorrectas y pendientes.
 - `questions.js`: preguntas, opciones, respuestas correctas y explicaciones.
 - `module.js`, `home.js` y `control.js`: interacción, selección de módulos y seguimiento.
 - `styles.css`: estilos responsivos.
-- `assets/exercises/`: imágenes opcionales de los ejercicios 5, 12 y 18.
+- `assets/exercises/`: imágenes opcionales de los ejercicios 5, 12, 18, 22, 24, 25, 28, 31 y 32.
 
 ## Agregar las imágenes
 
@@ -27,6 +30,14 @@ Coloca las imágenes en `assets/exercises/` con estos nombres exactos para que a
 - `ejercicio-05.png` — tendencia de usuarios del ejercicio 5.
 - `ejercicio-12.png` — gráfica o tabla visual del ejercicio 12.
 - `ejercicio-18.png` — esquema del ejercicio 18.
+- `ejercicio-22.png` — gráfica de la recta y sus dos puntos.
+- `ejercicio-24.png` — gráfica lineal con tres puntos.
+- `ejercicio-25.png` — gráficas de costos de los dos servicios.
+- `ejercicio-28.png` — gráfica de tiempo y distancia del ciclista.
+- `ejercicio-31.png` — gráfica de crecimiento de la planta.
+- `ejercicio-32.png` — esquema cualitativo de temperatura y dioxígeno.
+- `consigna-escritura-ia.png` — consigna visual del ejemplo de inteligencia artificial.
+- `consigna-escritura-compras.png` — consigna visual del ejemplo de compras internacionales.
 
 Se aceptan otros formatos: cambia también el nombre del archivo en `questions.js` si usas `.jpg` o `.webp`. Si una imagen todavía no está en la carpeta, el ejercicio se muestra normalmente sin dejar un espacio roto.
 
